@@ -62,3 +62,4 @@ O objetivo do projeto é apresentar meus trabalhos, habilidades e experiências 
 ---
 
 ✨ Desenvolvido com dedicação por [yuri-mrs](https://seu-site.com)
+✨ Lisença [yuri-mrs](./LICENSE)
