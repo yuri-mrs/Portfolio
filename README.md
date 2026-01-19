@@ -8,10 +8,9 @@ Este é o repositório do meu **portfólio pessoal**, uma vitrine virtual para a
 
 O portfólio foi desenvolvido usando as seguintes tecnologias:
 
-* **HTML5:** Estrutura e semântica do conteúdo.
-* **CSS3:** Estilização, layout responsivo e transições.
-* **JavaScript (ES6+):** Lógica interativa e funcionalidades dinâmicas.
-
+* **React:** Construção de interfaces dinâmicas, componentizadas e reutilizáveis.
+* **TypeScript:** Tipagem estática para maior segurança, escalabilidade e manutenção do código.
+* **Tailwind** CSS: Estilização utilitária, responsiva e consistente, com foco em produtividade e design moderno.
 ---
 
 ## 📂 Funcionalidades Principais
@@ -78,4 +77,4 @@ Este projeto está licenciado sob a **Licença MIT**. Para mais detalhes, consul
 
 ---
 
-Desenvolvido com dedicação por [Seu Nome](https://seu-site.com).
+Desenvolvido com dedicação por [Yuri M.R.S.](https://yuri-mrs.github.io/Portfolio/).
