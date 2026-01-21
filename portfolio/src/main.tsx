@@ -8,8 +8,13 @@ import CardProjeto from './assets/components/cards/CardProjeto.tsx'
 import MenuSocial from './assets/components/menus/MenuSocial.tsx'
 import MenuZonas from './assets/components/menus/MenuZonas.tsx'
 
+import BannerTopo from './assets/components/banners/BannerTopo.tsx'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <div>
+      <BannerTopo/>
+    </div>
     <div>
       <CardProjeto/>
       <CardCurso/>
