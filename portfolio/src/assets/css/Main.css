@@ -17,4 +17,12 @@
     .center-col {
         @apply justify-center flex-col
     }
+
+    .buttom-card {
+        @apply gap-2
+    }
+
+    .icon {
+        @apply w-9 h-9
+    }
 }

@@ -9,13 +9,17 @@ function CardProjeto() {
                     <img src="https://placehold.co/220x230" className="logo" alt="Vite logo" />
                 </a>
             </div>
-            <h2 class="card-title" >CardCursoProjeto</h2>
+            <h2 class="card-title" >CardProjeto</h2>
             <div class="center">
-                    <button class="">
-                        Github
+                    <button class="buttom-card">
+                        <img 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" 
+                            alt="Pagina do Github" 
+                            class="icon"
+                        />
                     </button>
-                    <button class="">
-                        Pagina
+                    <button class="buttom-card">
+                        <img src="" alt="Site do Projeto" />
                     </button>
             </div>
             <p class="center">
