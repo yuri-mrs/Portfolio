@@ -25,4 +25,8 @@
     .icon {
         @apply w-9 h-9
     }
+
+    .banner-out-1 {
+        @apply w-auto h-100
+    }
 }
