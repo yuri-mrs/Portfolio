@@ -4,7 +4,7 @@ import '../../css/Main.css'
 function CardExperiencia() {
     return (
         <>
-            <h2>CardCursoInfo</h2>
+            <h2 class="text-2xl font-bold underline">ExperienciaInfo</h2>
             <div className="card">
                 <div>
                     <button>
