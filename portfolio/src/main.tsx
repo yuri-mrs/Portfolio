@@ -11,6 +11,10 @@ import MenuZonas from './assets/components/menus/MenuZonas.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <CardCurso />
+    <MenuSocial/>
+    <MenuZonas/>
+    <CardProjeto/>
+    <CardCurso/>
+    <CardExperiencia/>
   </StrictMode>,
 )
