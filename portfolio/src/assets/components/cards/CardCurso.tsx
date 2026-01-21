@@ -3,8 +3,8 @@ import '../../css/Main.css'
 
 function CardCurso() {
     return (
-        <div class="justify-center flex-col bg-amber-700 m-auto p-5 w-70 h-50">
-            <h2 class="text-2xl font-bold underline justify-center flex">
+        <div class="card2 center-col bg-amber-700">
+            <h2 class="card-title">
                 CardCursoInfo
             </h2>
             <div class="justify-center flex">

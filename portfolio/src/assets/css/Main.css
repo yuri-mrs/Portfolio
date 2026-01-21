@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@layer components {
+    .card1 {
+        @apply m-auto p-5 w-70 h-100
+    }
+    .card2 {
+        @apply m-auto p-5 w-70 h-50
+    }
+    .card-title {
+        @apply text-2xl font-bold underline justify-center flex
+    }
+
+    .center {
+        @apply justify-center flex
+    }
+    .center-col {
+        @apply justify-center flex-col
+    }
+}
