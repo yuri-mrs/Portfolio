@@ -12,13 +12,9 @@ import BannerTopo from './assets/components/banners/BannerTopo.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div>
       <BannerTopo/>
-    </div>
-    <div>
       <CardProjeto/>
       <CardCurso/>
       <CardExperiencia/>
-    </div>
   </StrictMode>,
 )
