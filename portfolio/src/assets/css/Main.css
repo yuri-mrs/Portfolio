@@ -29,4 +29,7 @@
     .banner-out-1 {
         @apply w-auto h-100
     }
+    .banner-title {
+        @apply text-3xl
+    }
 }
