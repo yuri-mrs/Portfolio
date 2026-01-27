@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import '../../css/Main.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PublicIcon from '@mui/icons-material/Public';
 
 function CardProjeto() {
     return (
@@ -10,16 +12,12 @@ function CardProjeto() {
                 </a>
             </div>
             <h2 className="card-title" >CardProjeto</h2>
-            <div className="center">
+            <div className="center gap-5">
                     <button className="buttom-card">
-                        <img 
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" 
-                            alt="Pagina do Github" 
-                            className="icon"
-                        />
+                        <GitHubIcon fontSize="large"/>
                     </button>
                     <button className="buttom-card">
-                        <img src="" alt="Site do Projeto" />
+                        <PublicIcon fontSize="large"/>
                     </button>
             </div>
             <p className="center">
