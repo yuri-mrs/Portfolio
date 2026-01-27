@@ -25,11 +25,14 @@
     .icon {
         @apply w-9 h-9
     }
+    .icon-banner {
+        @apply w-15 h-15
+    }
 
     .banner-out-1 {
         @apply w-auto h-100
     }
     .banner-title {
-        @apply text-3xl
+        @apply text-5xl text-teal-400
     }
 }

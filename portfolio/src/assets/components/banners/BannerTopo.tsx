@@ -14,11 +14,14 @@ import World from "../../imgs/globe-showing-americas_1f30e.gif"
 
 function BannerTopo() {
     return (
-        <div className="banner-out-1 bg-cover bg-center" style={{ backgroundImage: `url(${Banner})` }}>
-            <h1 className="banner-title center text-teal-400">
-                <div className=''> Hello World !! </div>
-                <img src={World} className='icon' alt="" />
-                <div className=''>hi i'm Yuri M.R.S.</div>
+        <div 
+            className="banner-out-1 bg-cover bg-center relative" 
+            style={{ backgroundImage: `url(${Banner})` }}
+        >
+            <h1 className="center absolute bottom-28 left-0 right-0 gap-4">
+                <div className='banner-title'> Hello World !! </div>
+                <img src={World} className='icon-banner' alt="" />
+                <div className='banner-title'>i'm Yuri M.R.S.</div>
             </h1>
         </div>
     )
