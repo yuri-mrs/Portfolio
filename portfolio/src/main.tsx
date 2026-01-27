@@ -14,9 +14,11 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <div className='center-col'>
       <BannerTopo/>
-      <CardProjeto/>
-      <CardCurso/>
-      <CardExperiencia/>
+      <div className=''>
+        <CardProjeto/>
+        <CardCurso/>
+        <CardExperiencia/>
+      </div>
     </div>
 
   </StrictMode>,

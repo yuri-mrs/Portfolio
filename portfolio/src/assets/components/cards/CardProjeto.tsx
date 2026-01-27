@@ -5,7 +5,7 @@ import PublicIcon from '@mui/icons-material/Public';
 
 function CardProjeto() {
     return (
-        <div className="card1 center-col bg-blue-700">
+        <div className="card1 center-col border-8 border-double rounded-lg bg-teal-700">
             <div className="center">
                 <img src="https://placehold.co/220x230" className="logo" alt="Vite logo" />
             </div>
