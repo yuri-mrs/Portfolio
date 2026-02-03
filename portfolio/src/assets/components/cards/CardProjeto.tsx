@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import '../../css/Main.css'
 
+import ProjetoData from '../../data/CardProjetoData.ts'
+
 function CardProjeto({ title, description, icon1: Icon1,icon2: Icon2 }) {
     return (
         <div className="card1 center-col border-8 border-double rounded-lg bg-teal-700">
