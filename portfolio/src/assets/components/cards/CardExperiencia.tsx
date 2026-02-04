@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import React from 'react';
 import '../../css/Main.css'
 
-function CardExperiencia() {
+function default CardExperiencia() {
     return (
         <div class="card2 center-col bg-purple-700">
             <h2 class="card-title">ExperienciaInfo</h2>
@@ -16,5 +16,3 @@ function CardExperiencia() {
         </div>
     )
 }
-
-export default CardExperiencia
