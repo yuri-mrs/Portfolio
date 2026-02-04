@@ -1,12 +1,4 @@
-import React from 'react';
-
-interface ProjetoData {
-  id: number;
-  titulo: string;
-  descricao: string;
-  github: string;
-  page: string;
-}
+import type { ProjetoData } from '../types/Projeto';
 
 export const ProjetosData: ProjetoData[] = [
   {
